@@ -1,0 +1,36 @@
+h1{
+    margin:20px auto;
+    text-align: center;
+}
+
+#container{
+    width: 45%;
+    height: auto;
+    margin: 100px auto;
+    box-shadow: grey;
+    padding: 20px;
+    border-radius: 10px ;
+    border: 1px solid grey;
+}
+
+form{
+    width: 70%;
+    margin: 10px auto;
+}
+
+input{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    flex-direction: column;
+    margin-top: 8px;
+
+}
+
+#name_error,#email_error,#password_error,#mob_error{
+    color: red;
+}
+#success1,#success2,#success3,#success4{
+    color: green;
+}
+
